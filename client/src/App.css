@@ -14,6 +14,7 @@
   
 }
 .App {
+  zoom: 70%;
   /* background-image: linear-gradient(to right, white, grey); */
   background-image: url('https://wallpaperaccess.com/full/1193603.jpg');
   text-align: center;
@@ -69,17 +70,33 @@
 }
 /* projects page */
 .proj-1 {
-height: 250px;
-width: 250px;
-padding: 10px;
-margin: 10px;
-background-color: white;
+height: 80%;
+width: 90%;
+padding: 0px;
+margin: 25px;
+background-color: grey;
+text-align: center;
+
+}
+.projects {
+  height: 90%;
+  width: 90%;
+}
+.proj1-img {
+  height: 90%;
+  width: 90%;
 }
 .proj-container {
-  justify-content:center;
+  justify-content: center;
   display: grid;
   grid-template-columns: 25% 25%;
+  padding: 25px;
+  margin: 100px;
+  text-align: center;
+  background-color: white;
+  height: 900px;
   
+
 }
 
 /* projects page */
