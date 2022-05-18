@@ -1,0 +1,121 @@
+/* * {
+  background-image: linear-gradient(to right, rgb(153, 42, 42), grey);
+
+} */
+
+.navbar {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* height: 5vh; */
+  background-color: black;
+  
+}
+.App {
+  /* background-image: linear-gradient(to right, white, grey); */
+  background-image: url('https://wallpaperaccess.com/full/1193603.jpg');
+  text-align: center;
+  background-color: white;
+}
+
+.home-title1 {
+  color: black;
+}
+
+.home-box1-caption {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  color: white;
+
+}
+.name {
+  font-size: 55px;
+}
+.home-box-title {
+  font-size: 30px;
+  color: white;
+}
+.name-quote {
+  font-size: 30px;
+}
+.home-pic {
+  height: 400px;
+  width: 400px;
+  padding: 25px;
+  border-radius: 25px;
+}
+.home-box1 {
+  background-image: linear-gradient(to left, black, grey, black);
+  height: 50%;
+  margin: 10px;
+  padding: 10px
+}
+
+.home-box2 {
+  background-image: linear-gradient(to left, black, grey, black);
+  height: 50%;
+  margin: 10px;
+  padding: 10px
+}
+.socials {
+  font-size: 80px;
+  height: 65px;
+  background-color: black;
+  background-image: linear-gradient(to left, white, grey);
+  padding: 30px;
+}
+/* projects page */
+.proj-1 {
+height: 250px;
+width: 250px;
+padding: 10px;
+margin: 10px;
+background-color: white;
+}
+.proj-container {
+  justify-content:center;
+  display: grid;
+  grid-template-columns: 25% 25%;
+  
+}
+
+/* projects page */
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-image: linear-gradient(to right, rgb(153, 42, 42), grey); */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
