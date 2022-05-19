@@ -125,6 +125,7 @@ text-align: center;
 .proj1-img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .proj-container {
   justify-content: center;
