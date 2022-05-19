@@ -11,7 +11,9 @@
   /* justify-content: space-between; */
   /* height: 5vh; */
   /* background-image: linear-gradient(to right, grey, black) */
-  background-color: black;
+  background-image: linear-gradient(to right, black, #0d98ba, black);
+
+  height: 100px;
 }
 .navlink {
   font-size: 35px;
@@ -59,11 +61,39 @@ a:hover {
 }
 .name- {
   color: #0d98ba;
-  font-size: 60px
+  font-size: 60px;
+  width: 50%;
 }
 .text {
   color: white;
   font-size: 45px;
+}
+.text1 {
+  color: white;
+  font-size: 45px;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+
+}
+.text2 {
+  width: 50%;
+  float: right;
+}
+.onmymacpic {
+  width: 50%;
+  float: right;
+  height: 900px;
+  width: 900px;
+  /* border: solid white; */
+  margin-top: -270px;
+}
+.lbp {
+  float: left;
+  width: 50%;
+  height: 650px;
+  width: 650px;
+  padding: 0px 0px 0px 90px;
 }
 .name-quote {
   font-size: 50px;
@@ -91,7 +121,7 @@ a:hover {
 
 .home-box2 {
   /* background-image: linear-gradient(to left, black, grey, black); */
-  height: 1400px;
+  height: 1000px;
   margin: 30px;
   padding: 20px;
   background-color: rgb(0, 0, 0, 0.85);
@@ -105,11 +135,12 @@ a:hover {
   color: white;
 }
 .socials {
-  font-size: 80px;
-  height: 65px;
-  background-color: black;
-  background-image: linear-gradient(to left, white, grey);
+  font-size: 100px;
+  height: 100px;
+  /* background-color: black; */
+  background-image: linear-gradient(to right, black, #0d98ba, black);
   padding: 30px;
+  color: black;
 }
 /* projects page */
 .proj-1 {
