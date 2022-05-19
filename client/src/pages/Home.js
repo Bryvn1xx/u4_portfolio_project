@@ -27,7 +27,7 @@ const Home = () => {
         <div className='home-box2'>
           <h2 className='home-box-title' >Who am i?</h2>
           <p2 className='text' >Hello! My name is </p2><p2 className='name-'>Bryan Sanchez,</p2>
-          <h2 className='text'>I am a Full-Stack Software Engineer, i </h2>
+          <h2 className='text'>I am a Full-Stack Software Engineer, with experience in   </h2>
           <h2 className='home-box-title' >Technologies</h2>
           <div>
             <div className='home-box-caption' ><h2>Front End: HTML, CSS, JavaScript, React, Redux, Vue, Python</h2></div>
