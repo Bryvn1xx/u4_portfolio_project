@@ -27,6 +27,7 @@ a:hover {
 
 
 .App {
+  max-width: 100%;
   font-family: 'Libre Baskerville', serif;
   
   zoom: 70%;
@@ -71,7 +72,7 @@ a:hover {
 }
 .home-pic {
   height: 1300px;
-  width: 100%;
+  width: 1300px;
   opacity: 1.0;
   padding: 0px 50px 50px 50px;
   /* border: 5px solid black ; */
