@@ -4,9 +4,9 @@ const Nav = () => {
   return (
     <div>
       <nav className='navbar'>
-        <Link to='/about'>About</Link>
-        <Link to='/'>Home</Link>
-        <Link to='/projects'>Projects</Link>
+        <Link className='navlink' to='/'>Home</Link>
+        <Link className='navlink' to='/about'>About</Link>
+        <Link className='navlink' to='/projects'>Projects</Link>
         <h3>Welcome!</h3>
       </nav>
       <header>

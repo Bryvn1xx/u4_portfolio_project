@@ -35,8 +35,12 @@ function App() {
 
       </header>
       <div className='socials'>
+        <a href='https://github.com/Bryvn1xx'>
         <FaGithub />
+        </a>
+        <a href='https://www.linkedin.com/in/bryvn1xx/'>
         <FaLinkedin />
+        </a>
 
       </div>
     </div >

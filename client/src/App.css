@@ -10,9 +10,22 @@
   align-items: center;
   /* justify-content: space-between; */
   /* height: 5vh; */
+  /* background-image: linear-gradient(to right, grey, black) */
   background-color: black;
+}
+.navlink {
+  font-size: 35px;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
   
 }
+
+
 .App {
   zoom: 70%;
   /* background-image: linear-gradient(to right, white, grey); */
@@ -57,7 +70,7 @@
 
 .home-box2 {
   background-image: linear-gradient(to left, black, grey, black);
-  height: 50%;
+  height: 100%;
   margin: 10px;
   padding: 10px
 }
@@ -78,10 +91,7 @@ background-color: grey;
 text-align: center;
 
 }
-.projects {
-  height: 90%;
-  width: 90%;
-}
+
 .proj1-img {
   height: 90%;
   width: 90%;
