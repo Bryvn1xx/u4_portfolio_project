@@ -48,7 +48,8 @@ a:hover {
 .home-box1-caption {
   width: 50%;
   float: left;
-  padding: 15pt;
+  padding: 15px;
+  font-size: 25pt;
   color: black;
 
 }
@@ -73,11 +74,10 @@ a:hover {
 }
 .text1 {
   color: white;
-  font-size: 15pt;
+  font-size: 30pt;
   width: 50%;
   padding: 10px;
   margin: 10px;
-
 }
 .text2 {
   width: 50%;
@@ -102,8 +102,8 @@ a:hover {
 .lbp {
   float: left;
   width: auto;
-  height: 400px;
-  padding: 0px 0px 0px 250px;
+  height: 500px;
+  padding: 125px 0px 0px 250px;
 }
 .name-quote {
   font-size: 50px;
@@ -130,22 +130,23 @@ a:hover {
 
 .home-box2 {
   /* background-image: linear-gradient(to left, black, grey, black); */
-  height: 1000px;
+  height: 1200px;
   margin: 5px;
   padding: 5px;
   background-color: rgb(0, 0, 0, 0.85);
   font-size: 12pt;
-  
 
 
 }
 .home-box-caption {
-  display: flex;
-  justify-content: center;
   text-align: left;
-  font-size: 12pt;
+  font-size: 30pt;
   color: white;
-  width: 50%
+  width: 50%;
+  height: auto;
+}
+.techstx {
+font-size: 30pt;
 }
 .socials {
   font-size: 100px;
@@ -224,8 +225,27 @@ text-align: center;
 }
 @media (max-width: 500px) {
   body {
-    width: 35rem;
   }
-  .navlink {
+  .emoji1 {
+    height: 250px;
+    width: auto;
+    float: right;
+    padding: 100px 40px 60px 1px;
+
+  }
+  .text1 {
+    text-align: left;
+    padding: 15px;
+  }
+  .home-pic {
+    height: auto;
+    width: 1000px;
+    padding: 200px 5px 5px 5px;
+  }
+  .lbp {
+    float: left;
+    height: 300px;
+    width: auto;
+    padding: 250px 5px 5px 30px;
   }
 }
