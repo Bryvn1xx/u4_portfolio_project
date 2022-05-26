@@ -32,7 +32,7 @@ a:hover {
   max-width: 100%;
   font-family: 'Libre Baskerville', serif;
   
-  zoom: 70%;
+  zoom: 50%;
   /* background-image: linear-gradient(to right, white, grey); */
   background-image: url('https://wallpaperaccess.com/full/1193603.jpg');
   text-align: center;
@@ -56,8 +56,11 @@ a:hover {
   font-size: 80px;
 }
 .home-box-title {
-  font-size: 18pt;
+  font-size: 25pt;
   color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
 }
 .name- {
   color: #0d98ba;
@@ -81,26 +84,26 @@ a:hover {
   float: right;
 }
 .emoji1 {
-  width: 50%;
+  width: auto;
   float: right;
-  height: 50%;
-  width: 50%;
-  padding: 45px 0px 0px 0px;
+  height: 400px;
+  padding: 0px 250px 0px 0px;
+  overflow: auto;
+  /* position: relative; */
+  object-fit: contain;
 }
 .onmymacpic {
-  width: 50%;
+  /* width: 50%;
   float: right;
   height: 900px;
   width: 900px;
-  /* border: solid white; */
-  margin-top: -270px;
+  margin-top: -270px; */
 }
 .lbp {
   float: left;
-  width: 50%;
-  height: 650px;
-  width: 650px;
-  padding: 0px 0px 0px 90px;
+  width: auto;
+  height: 400px;
+  padding: 0px 0px 0px 250px;
 }
 .name-quote {
   font-size: 50px;
@@ -109,21 +112,20 @@ a:hover {
 }
 .home-pic {
   height: 75%;
-  width: 75%%;
+  width: 100%;
   opacity: 1.0;
-  padding: 0px 50px 50px 50px;
+  padding: 20px 0px 0px 0px;
   /* border: 5px solid black ; */
 }
 .home-box1 {
   /* background-image: linear-gradient(to left, black, grey, black); */
   height: 1400px;
-  margin: 30px;
-  padding: 20px;
+  margin: 5px;
+  padding: 5px;
   background-color: rgb(0, 0, 0, 0.85);
   display: flex;
   justify-content: center;
-  overflow-x: auto;
-  overflow-y: auto;
+  
 }
 
 .home-box2 {
@@ -143,6 +145,7 @@ a:hover {
   text-align: left;
   font-size: 12pt;
   color: white;
+  width: 50%
 }
 .socials {
   font-size: 100px;
