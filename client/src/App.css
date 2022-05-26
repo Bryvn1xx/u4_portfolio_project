@@ -4,7 +4,7 @@
 } */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Libre+Baskerville&family=MuseoModerno:wght@100&family=Oxygen:wght@300&family=Poiret+One&display=swap');
 .navbar {
-  font-size: 20px;
+  font-size: 5rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -48,7 +48,7 @@ a:hover {
 .home-box1-caption {
   width: 50%;
   float: left;
-  padding: 20px;
+  padding: 15pt;
   color: black;
 
 }
@@ -56,7 +56,7 @@ a:hover {
   font-size: 80px;
 }
 .home-box-title {
-  font-size: 50px;
+  font-size: 18pt;
   color: white;
 }
 .name- {
@@ -70,7 +70,7 @@ a:hover {
 }
 .text1 {
   color: white;
-  font-size: 45px;
+  font-size: 15pt;
   width: 50%;
   padding: 10px;
   margin: 10px;
@@ -79,6 +79,13 @@ a:hover {
 .text2 {
   width: 50%;
   float: right;
+}
+.emoji1 {
+  width: 50%;
+  float: right;
+  height: 50%;
+  width: 50%;
+  padding: 45px 0px 0px 0px;
 }
 .onmymacpic {
   width: 50%;
@@ -101,8 +108,8 @@ a:hover {
   text-align: left;
 }
 .home-pic {
-  height: 1300px;
-  width: 1300px;
+  height: 75%;
+  width: 75%%;
   opacity: 1.0;
   padding: 0px 50px 50px 50px;
   /* border: 5px solid black ; */
@@ -122,16 +129,19 @@ a:hover {
 .home-box2 {
   /* background-image: linear-gradient(to left, black, grey, black); */
   height: 1000px;
-  margin: 30px;
-  padding: 20px;
+  margin: 5px;
+  padding: 5px;
   background-color: rgb(0, 0, 0, 0.85);
+  font-size: 12pt;
+  
+
 
 }
 .home-box-caption {
   display: flex;
   justify-content: center;
   text-align: left;
-  font-size: 25px;
+  font-size: 12pt;
   color: white;
 }
 .socials {
@@ -207,5 +217,12 @@ text-align: center;
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media (max-width: 500px) {
+  body {
+    width: 35rem;
+  }
+  .navlink {
   }
 }

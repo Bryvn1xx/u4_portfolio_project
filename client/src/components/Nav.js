@@ -7,7 +7,6 @@ const Nav = () => {
         <Link className='navlink' to='/'>Home</Link>
         <Link className='navlink' to='/about'>About</Link>
         <Link className='navlink' to='/projects'>Projects</Link>
-        <h3>Welcome!</h3>
       </nav>
       <header>
       </header>
