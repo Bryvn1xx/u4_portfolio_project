@@ -220,7 +220,7 @@ text-align: center;
 .proj-container {
   justify-content: center;
   display: grid;
-  grid-template-columns: 50%;
+  grid-template-columns: 70%;
   padding: 25px;
   margin: 100px;
   text-align: center;
@@ -297,4 +297,5 @@ text-align: center;
     width: 950px;
     height: 950px;
   }
+  
 }
