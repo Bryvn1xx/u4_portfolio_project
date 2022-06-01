@@ -56,8 +56,30 @@ a:hover {
 .name {
   font-size: 80px;
 }
+.about-box {
+display: block;
+padding: 150px 10px 0px 10px;
+margin: 10px;
+background-color: rgb(0, 0, 0, 0.85);
+height: 800px;
+}
+.about-cap {
+  display: flex;
+  float: left;
+  width: 50%;
+  color: white;
+  font-size: 20pt;
+  text-align: left;
+
+}
+.about-pic {
+  display: block;
+  float: right;
+  width: 50%;
+  
+}
 .home-box-title {
-  font-size: 25pt;
+  font-size: 50pt;
   color: white;
   width: 100%;
   text-align: center;
@@ -247,5 +269,9 @@ text-align: center;
     height: 300px;
     width: auto;
     padding: 250px 5px 5px 30px;
+  }
+  .home-pic {
+    width: 950px;
+    height: 950px;
   }
 }

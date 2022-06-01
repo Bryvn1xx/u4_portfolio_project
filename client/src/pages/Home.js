@@ -11,7 +11,7 @@ const Home = () => {
       <div className='home-cards'>
         <div>
           <div className='home-box1'>
-            <a href='https://bryansportal.herokuapp.com/about'>
+            <a className='home-pic1' href='https://bryansportal.herokuapp.com/about'>
               <img className='home-pic' src='/home-pic2.png'></img>
             </a>
           </div>
