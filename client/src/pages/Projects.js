@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <div>
-      <h1>Projects</h1>
+      <h1 className='project-page-title'>Projects</h1>
       <div className='projects'>
         <div className='proj-container'>
           <div className='proj-1'>
@@ -9,7 +9,7 @@ const Projects = () => {
               <img className='proj1-img' src='/noderun-screenshot.png'></img>
             </a>
             <a className='repos-link' href='https://github.com/Bryvn1xx/u4_capstone_noderun' >
-              <p>Github Repo</p>
+              <p>NodeRun Repo</p>
             </a>
             <h2>NodeRun</h2>
           </div>
@@ -19,7 +19,7 @@ const Projects = () => {
 
             </a>
             <a className='repos-link' href='https://github.com/MC-JSON/WorkTrack-FrontEnd/tree/main' >
-              <p>Github Repo</p>
+              <p>WorkTrack Repo</p>
             </a>
           </div>
           <div className='proj-1'>
@@ -27,7 +27,7 @@ const Projects = () => {
               <img className='proj1-img' src='/luxury-motors.png'></img>
             </a>
             <a className='repos-link' href='https://github.com/Bryvn1xx/u4_capstone_noderun' >
-              <p>Github Repo</p>
+              <p>Luxury Motors Repo</p>
             </a>
           </div>
           <div className='proj-1'>
@@ -35,7 +35,7 @@ const Projects = () => {
               <img className='proj1-img' src='/connect-4.png'></img>
             </a>
             <a className='repos-link' href='https://github.com/Bryvn1xx/u4_capstone_noderun' >
-              <p>Github Repo</p>
+              <p>Tic-Tac-Toe Repo</p>
             </a>
           </div>
         </div>
